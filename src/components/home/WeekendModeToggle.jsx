@@ -49,7 +49,7 @@ const handleWeekendModeClick = () => {
     <>
       <div className="salv-weekend-btn">
         <span className="salv-wek-text sm-font inter-font-600 b-text">
-          Weekend Mode
+          Fuera del trabajo...
         </span>
         <label className="salva-switch-btn switch plane-switch">
           <input

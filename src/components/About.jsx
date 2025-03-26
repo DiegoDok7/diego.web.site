@@ -97,10 +97,10 @@ const About = () =>
                                     target="_self"
                                     className="w-text salv-menu-link dark-menu-link active"
                                   >
-                                    About
+                                    Sobre mí
                                   </Link>
                                 </li>
-                                <li className="salv-menu-item">
+                                {/* <li className="salv-menu-item">
                                   <Link
                                     to="/portfolio"
                                     target="_self"
@@ -117,14 +117,14 @@ const About = () =>
                                   >
                                     News
                                   </Link>
-                                </li>
+                                </li> */}
                                 <li className="salv-menu-item">
                                   <Link
                                     to="/contact"
                                     target="_self"
                                     className="salv-menu-link dark-color"
                                   >
-                                    Contact
+                                    Contacto
                                   </Link>
                                 </li>
                               </ul>
@@ -332,7 +332,7 @@ const About = () =>
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000"
                       >
-                        About
+                        Sobre mí
                       </h2>
                       <div className="sec-text text-anim">
                         <p
@@ -341,13 +341,16 @@ const About = () =>
                           data-aos-offset="300"
                           data-aos-easing="ease-in-sine"
                         >
-                          I am a freelancer based in the United Kingdom and i
-                          have been building noteworthy UX/UI designs and
-                          websites for years, which comply with the latest
-                          design trends. I help convert a vision and an idea
-                          into meaningful and useful products. Having a sharp
-                          eye for product evolution helps me prioritize tasks,
-                          iterate fast.
+                          Soy un profesional con un enfoque sólido en la implementación de tecnologías 
+                          innovadoras y la optimización de procesos empresariales. A lo largo de mi 
+                          carrera, he trabajado en la creación de soluciones digitales que mejoran la 
+                          productividad y la eficiencia operativa de las empresas.
+                          <br />
+                          He logrado desarrollar una perspectiva integral para abordar los retos 
+                          tecnológicos de las organizaciones. Siempre busco aplicar mi creatividad y 
+                          habilidades organizativas para ofrecer soluciones personalizadas que contribuyan 
+                          al crecimiento sostenible y a la transformación digital, pero sobre todo, 
+                          que marquen una diferencia positiva en las personas.
                         </p>
                       </div>
                     </div>
@@ -364,16 +367,16 @@ const About = () =>
                     <EduAndExp />
 
                     {/* <!--About interest section --> */}
-                    <Interest />
+                    {/* <Interest /> */}
 
                     {/* <!--About award section --> */}
-                    <Awards />
+                    {/* <Awards /> */}
 
                     {/* <!--About client section --> */}
-                    <ClientSection />
+                    {/* <ClientSection /> */}
 
                     {/* <!--About Testimonial section --> */}
-                    <TestimonialSection />
+                    {/* <TestimonialSection /> */}
                   </div>
                   {/* <!--weekend-mode start here--> */}
                   <WeekendModeContent />

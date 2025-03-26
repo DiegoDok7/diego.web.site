@@ -91,10 +91,10 @@ const Contact = () =>
                                     target="_self"
                                     className="salv-menu-link dark-color"
                                   >
-                                    About
+                                    Sobre mí
                                   </Link>
                                 </li>
-                                <li className="salv-menu-item">
+                                {/* <li className="salv-menu-item">
                                   <Link
                                     to="/portfolio"
                                     target="_self"
@@ -111,14 +111,14 @@ const Contact = () =>
                                   >
                                     News
                                   </Link>
-                                </li>
+                                </li> */}
                                 <li className="salv-menu-item">
                                   <Link
                                     to="/contact"
                                     target="_self"
                                     className="w-text salv-menu-link dark-menu-link active"
                                   >
-                                    Contact
+                                    Contacto
                                   </Link>
                                 </li>
                               </ul>
@@ -326,7 +326,7 @@ const Contact = () =>
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000"
                       >
-                        Contact
+                        Contáctame
                       </h2>
                       <p
                         className="salv-about-desc mb-0 dark-sec-color inter-font-400"
@@ -334,10 +334,7 @@ const Contact = () =>
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine"
                       >
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim laboris nisi ut aliquip ex
-                        ea commodo consequat.
+                        Si puedo ayudarte con algo, ¡no dudes en contactarme!
                       </p>
                     </div>
 

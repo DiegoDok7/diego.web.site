@@ -7,7 +7,7 @@ const SocialIcon = () =>
         <div className="salv-social-wrap">
           <div className="salv-social-content">
             <ul className="salv-social-list dark-social-list">
-              <li className="salv-social-icon">
+              {/* <li className="salv-social-icon">
                 <a href="">
                   <svg
                     width="10"
@@ -80,9 +80,9 @@ const SocialIcon = () =>
                     </g>
                   </svg>
                 </a>
-              </li>
+              </li> */}
               <li className="salv-social-icon">
-                <a href="">
+                <a href="https://www.linkedin.com/in/diegoalarconalba/">
                   <svg
                     width="20"
                     height="20"
@@ -112,7 +112,7 @@ const SocialIcon = () =>
               </li>
             </ul>
             <div className="salv-follow-us-content dark-follow-color ex-sm-font inter-font-600">
-              follow me
+              ¡Sígueme!
             </div>
           </div>
         </div>

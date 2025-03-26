@@ -339,7 +339,7 @@ const Home = () => {
                                   Sobre mí
                                 </Link>
                               </li>
-                              <li className="salv-menu-item">
+                              {/* <li className="salv-menu-item">
                                 <Link
                                   to="/portfolio"
                                   target="_self"
@@ -347,8 +347,8 @@ const Home = () => {
                                 >
                                   Portafolio
                                 </Link>
-                              </li>
-                              <li className="salv-menu-item">
+                              </li> */}
+                              {/* <li className="salv-menu-item">
                                 <Link
                                   to="/news"
                                   target="_self"
@@ -356,7 +356,7 @@ const Home = () => {
                                 >
                                   Trayectoria
                                 </Link>
-                              </li>
+                              </li> */}
                               <li className="salv-menu-item">
                                 <Link
                                   to="/contact"

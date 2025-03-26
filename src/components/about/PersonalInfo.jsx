@@ -7,59 +7,59 @@ const PersonalInfo = () =>
       <>
         <div className="salv-about-personal">
           <h3 className="salv-about-personla-title dark-about-personal-title mb-0 w-text sm-md-font inter-font-700">
-            Personal Informations
+            Información personal
           </h3>
           <div className="row personal-info-row">
             <div className="col-12 col-sm-6 col-md-6 col-lg-6 personal-first-col">
               <div className="pers-info-wrap">
                 <span className="pers-info-title w-text sm-md-font inter-font-400">
-                  First Name:
+                  Nombre:
                 </span>
                 <span className="pers-info-title dark-sec-color sm-md-font inter-font-400 m-2">
-                  Sergio
+                  Diego
                 </span>
               </div>
               <div className="pers-info-wrap">
                 <span className="pers-info-title w-text sm-md-font inter-font-400">
-                  Last Name:
+                  Apellidos:
                 </span>
                 <span className="pers-info-title dark-sec-color sm-md-font inter-font-400 m-2">
-                  Marquina
+                  Alarcón Alba
                 </span>
               </div>
               <div className="pers-info-wrap">
                 <span className="pers-info-title w-text sm-md-font inter-font-400">
-                  Address:
+                  Residencia:
                 </span>
                 <span className="pers-info-title dark-sec-color sm-md-font inter-font-400 m-2">
-                  121 Victoria St. London
+                  Valencia, España
                 </span>
               </div>
               <div className="pers-info-wrap">
                 <span className="pers-info-title w-text sm-md-font inter-font-400">
-                  Age:
+                  Edad:
                 </span>
                 <span className="pers-info-title dark-sec-color sm-md-font inter-font-400 m-2">
-                  26 Years
+                  27 años
                 </span>
               </div>
             </div>
             <div className="col-12 col-sm-6 col-md-6 col-lg-6 personal-second-col">
               <div className="pers-info-wrap">
                 <span className="pers-info-title w-text sm-md-font inter-font-400">
-                  Study:
+                  Estudios:
                 </span>
                 <span className="pers-info-title dark-sec-color sm-md-font inter-font-400 m-2">
-                  Univercity of Oxford
+                  EAE Business School Madrid
                 </span>
               </div>
               <div className="pers-info-wrap">
                 <span className="pers-info-title w-text sm-md-font inter-font-400">
-                  Degree:
+                  Grado:
                 </span>
                 <span className="pers-info-title dark-sec-color sm-md-font inter-font-400 m-2">
                   {" "}
-                  Master of Science
+                  Master en Big Data & Analytics
                 </span>
               </div>
               <div className="pers-info-wrap">
@@ -68,23 +68,23 @@ const PersonalInfo = () =>
                 </span>
                 <span className="pers-info-title">
                   <Link
-                    to="mailto:hello@salva.com"
+                    to="mailto:ddj.alarcon@gmail.com"
                     className="dark-sec-color sm-md-font inter-font-400 links m-2"
                   >
-                    hello@salva.com
+                    ddj.alarcon@gmail.com
                   </Link>
                 </span>
               </div>
               <div className="pers-info-wrap">
                 <span className="pers-info-title w-text sm-md-font inter-font-400">
-                  Phone:
+                  Teléfono:
                 </span>
                 <span className="pers-info-title">
                   <Link
-                    to="tel:+202345678899"
+                    to="tel:+34695384318"
                     className="dark-sec-color sm-md-font inter-font-400 links m-2"
                   >
-                    +20 234 567 8899
+                    +34 695 38 43 18
                   </Link>
                 </span>
               </div>

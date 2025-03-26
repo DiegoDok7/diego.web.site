@@ -6,9 +6,9 @@ const GetTouch = () =>
     return (
       <>
         <div className="salv-cont-get-in">
-          <h3 className="salv-about-personla-title dark-about-personal-title mb-0 w-text sm-md-font inter-font-700">
+          {/* <h3 className="salv-about-personla-title dark-about-personal-title mb-0 w-text sm-md-font inter-font-700">
             get in touch
-          </h3>
+          </h3> */}
           <div className="salv-get-row row">
             <div className="col-12 col-sm-4 col-md-4 col-lg-4 mail-cont-col">
               <div className="sal-get-in-wrap dark-sal-get-wrap">
@@ -28,10 +28,10 @@ const GetTouch = () =>
                 </div>
                 <div className="salv-get-in-title">
                   <Link
-                    to="mailto:hello@salva.com"
+                    to="mailto:ddj.alarcon@gmail.com"
                     className="sal-get-mail inter-font-500 sm-md-font"
                   >
-                    hello@salva.com
+                    ddj.alarcon@gmail.com
                   </Link>
                 </div>
                 <div className="go-corner">
@@ -57,10 +57,10 @@ const GetTouch = () =>
                 </div>
                 <div className="salv-get-in-title">
                   <Link
-                    to="tel:+202345678899"
+                    to="tel:+34695384318"
                     className="sal-get-mail inter-font-500 sm-md-font"
                   >
-                    +20 234 567 8899
+                    +34 695 38 43 18
                   </Link>
                 </div>
                 <div className="go-corner">
@@ -86,7 +86,7 @@ const GetTouch = () =>
                 </div>
                 <div className="salv-get-in-title">
                   <span className="sal-get-mail inter-font-500 sm-md-font">
-                    121 Victoria St. London
+                    Valencia, España
                   </span>
                 </div>
                 <div className="go-corner">
