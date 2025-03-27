@@ -137,7 +137,7 @@ const Home = () => {
                     <div className="salv-tablet-view-soci">
                       <div className="salv-social-content">
                         <ul className="salv-social-list">
-                          <li className="salv-social-icon">
+                          {/* <li className="salv-social-icon">
                             <a href="">
                               <svg
                                 width="10"
@@ -210,9 +210,9 @@ const Home = () => {
                                 </g>
                               </svg>
                             </a>
-                          </li>
+                          </li> */}
                           <li className="salv-social-icon">
-                            <a href="">
+                            <a href="https://www.linkedin.com/in/diegoalarconalba/">
                               <svg
                                 width="20"
                                 height="20"
@@ -370,15 +370,9 @@ const Home = () => {
                             {/* <!--tablet screen menu design --> */}
                             <div className="salv-menu-design-two">
                               <div className="menu-design-wrap">
-                                <div className="salv-menu-profile">
-                                  <img
-                                    src={ProfileImg}
-                                    alt="this is profile image"
-                                  />
-                                </div>
                                 <div className="sakv-new-menu-social">
                                   <ul className="salv-menu-social-list">
-                                    <li className="salv-menu-social-icon">
+                                    {/* <li className="salv-menu-social-icon">
                                       <a href="">
                                         <svg
                                           width="10"
@@ -457,9 +451,9 @@ const Home = () => {
                                           </g>
                                         </svg>
                                       </a>
-                                    </li>
+                                    </li> */}
                                     <li className="salv-menu-social-icon">
-                                      <a href="">
+                                      <a href="https://www.linkedin.com/in/diegoalarconalba/">
                                         <svg
                                           width="20"
                                           height="20"
@@ -500,7 +494,7 @@ const Home = () => {
                                         className="slav-tb-menu-name"
                                         target="_self"
                                       >
-                                        home
+                                        Home
                                       </Link>
                                     </li>
                                     <li className="salv-sec-menu-link">
@@ -509,25 +503,7 @@ const Home = () => {
                                         target="_self"
                                         className="slav-tb-menu-name"
                                       >
-                                        about
-                                      </Link>
-                                    </li>
-                                    <li className="salv-sec-menu-link">
-                                      <Link
-                                        to="/portfolio"
-                                        target="_self"
-                                        className="slav-tb-menu-name"
-                                      >
-                                        portfolio
-                                      </Link>
-                                    </li>
-                                    <li className="salv-sec-menu-link">
-                                      <Link
-                                        to="/news"
-                                        target="_self"
-                                        className="slav-tb-menu-name active"
-                                      >
-                                        news
+                                        Sobre mí
                                       </Link>
                                     </li>
                                     <li className="salv-sec-menu-link">
@@ -536,22 +512,10 @@ const Home = () => {
                                         target="_self"
                                         className="slav-tb-menu-name"
                                       >
-                                        contact
+                                        Contacto
                                       </Link>
                                     </li>
                                   </ul>
-                                </div>
-                                <div className="salv-mob-copyright">
-                                  <p className="salv-copyright-content mb-0 sm-font inter-font-400 b-text light-copyright">
-                                    Copyright © 2024 Salva ❤{" "}
-                                    <Link
-                                      to="https://1.envato.market/website-portfolio"
-                                      className="b-text"
-                                      target="_blank"
-                                    >
-                                      the_krishna
-                                    </Link>
-                                  </p>
                                 </div>
                               </div>
                             </div>
