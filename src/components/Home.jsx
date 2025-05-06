@@ -129,9 +129,8 @@ const Home = () => {
                       Diego Alarcón
                     </h2>
                     <p className="mb-0 salv-home-desc w-text inter-font-500">
-                      Analista de Datos y Consultor especializado en SQL, Python y React. 
-                      Apasionado por la transformación de datos en insights accionables y 
-                      el desarrollo de soluciones eficientes.
+                    Ingenierio de profesión, con 5 años de experiencia en proyectos de tecnología, enfocado en el análisis de datos para mejorar procesos y
+apoyar la toma de decisiones. Manejo herramientas como SQL, Python, Power BI y entornos cloud.
                     </p>
                     {/* <!--small screen social icon start here --> */}
                     <div className="salv-tablet-view-soci">
