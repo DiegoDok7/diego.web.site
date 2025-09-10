@@ -244,11 +244,11 @@ apoyar la toma de decisiones. Manejo herramientas como SQL, Python, Power BI y e
                     </div>
                     <div className="salv-home-buttons dark-button">
                       <div className="salv-home-get-touch dark-get-touch">
-                        <Link to="/contact" target="_self">
-                          <span className="salv-get-text">Conectemos</span>
+                        <Link to="/about" target="_self">
+                          <span className="salv-get-text">Sobre mí</span>
                         </Link>
                       </div>
-                      <button
+                      {/*<button
                         className="salv-down-cv-btn dark-down-btn"
                         onClick={onButtonClick}
                       >
@@ -272,7 +272,7 @@ apoyar la toma de decisiones. Manejo herramientas como SQL, Python, Power BI y e
                           </defs>
                         </svg>{" "}
                         Descargar CV{" "}
-                      </button>
+                      </button>*/}
                     </div>
                   </div>
                   {/* <!--weekend-mode start here--> */}

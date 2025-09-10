@@ -42,9 +42,9 @@ const EduAndExp = () => {
             <div className="about-educ-card-wrap">
               <div className="eduction-card edu-card-two dark-edu-card">
                 <div className="year-edu-className">
-                  <div className="educ-year">2024 - Actualidad</div>
+                  <div className="educ-year">Oct 2024 - Actualidad</div>
                   <p className="about-edu-title sm-md-font w-text inter-font-500 mb-0">
-                    Project Manager
+                    Project Manager & Software Developer
                   </p>
                 </div>
                 <div className="about-desc sm-font-two inter-font-400 dark-sec-color">
@@ -55,9 +55,9 @@ const EduAndExp = () => {
               </div>
               <div className="eduction-card edu-card-one dark-edu-card">
                 <div className="year-edu-className">
-                  <div className="educ-year">2022 - 2024</div>
+                  <div className="educ-year">Dic 2022 - Jul 2024</div>
                   <p className="about-edu-title sm-md-font w-text inter-font-500 mb-0">
-                    Service Manager
+                    Gestor de Servicios y Consultoría
                   </p>
                 </div>
                 <div className="about-desc sm-font-two inter-font-400 dark-sec-color">
